@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backitem"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="6dp"
+
+
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/magin"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/magin"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/magin"
+            android:textColor="@color/grey"
+            android:textStyle="italic"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/articletitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/linearLayout"
+        android:gravity="right"
+        android:padding="@dimen/magin"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:typeface="monospace"
+        />
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/linearLayout"
+        android:gravity="right"
+
+        android:layout_below="@id/articletitle"
+        android:padding="@dimen/magin"
+        android:textColor="@color/MaterialGreen900"
+        android:typeface="monospace"
+        />
+
+
+
+</RelativeLayout>

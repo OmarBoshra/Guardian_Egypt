@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Guardian Egypt</string>
+    <string name="NewsEgypt">News Egypt</string>
+    <string name="Loading">Loading…</string>
+</resources>
